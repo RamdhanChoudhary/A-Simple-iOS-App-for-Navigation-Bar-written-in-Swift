@@ -38,11 +38,11 @@ class ViewController: UIViewController {
 
     //Handle Navigation Bar Button Actions
     @IBAction func profileButtonClicked(_ sender: Any) {
-        print("This is Navigation Bar Profile Button")
+        print("Go to Profile View Controller")
     }
     
     @IBAction func settingButtonClicked(_ sender: Any) {
-        print("This is Navigation Bar Setting Button")
+        print("Go to Settings View Contorller")
 
     }
     @IBAction func helpButtonClicked(_ sender: Any) {
