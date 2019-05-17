@@ -17,14 +17,14 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.499503749" green="1" blue="0.69982613360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="M3t-bH-oA1">
                         <barButtonItem key="leftBarButtonItem" title="Profile" id="hTb-4V-V57">
                             <connections>
                                 <action selector="profileButtonClicked:" destination="BYZ-38-t0r" id="qnJ-fe-n3Y"/>
+                                <segue destination="Y2T-Mm-oWF" kind="show" id="Ccq-OM-JG6"/>
                             </connections>
                         </barButtonItem>
                         <rightBarButtonItems>
@@ -33,9 +33,10 @@
                                     <action selector="helpButtonClicked:" destination="BYZ-38-t0r" id="EpP-K1-eXU"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Setting" id="DgE-lK-MYw">
+                            <barButtonItem title="Settings" id="DgE-lK-MYw">
                                 <connections>
                                     <action selector="settingButtonClicked:" destination="BYZ-38-t0r" id="XPS-S2-ntq"/>
+                                    <segue destination="WXh-nF-VGK" kind="show" id="BID-68-Y4d"/>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -44,6 +45,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="990" y="747"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MWo-mL-QcP">
+            <objects>
+                <viewController id="Y2T-Mm-oWF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Xq-Z2-tip">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.635947241" green="0.68884513000000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="DwP-bB-mQe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dpl-Er-XXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1912" y="1107"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="huS-DX-7Sn">
+            <objects>
+                <viewController id="WXh-nF-VGK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E2P-Cg-lTn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.50555400480000001" blue="0.4221854934" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="mR3-Vq-cv2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="neB-0R-9Jo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1929" y="469"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xps-ZY-7pb">
